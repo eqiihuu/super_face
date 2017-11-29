@@ -4,10 +4,10 @@ import os
 from PIL import Image
 from PIL import ImageFilter
 
-img_size = 512
+img_size = 256
 img_range = pow(2, 17)
 data_dir = './data/Meshes'
-new_data_dir = './data/2D_half'
+new_data_dir = './data/2D_face_256'
 files = os.listdir(data_dir)
 id = 0
 file_num = len(files)
